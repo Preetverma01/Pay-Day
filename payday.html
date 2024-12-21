@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+
+ <body>
+    
+    <div class="container">
+ 
+
+        <form id="registration-form" action="Thankyou.html" method="GET">
+
+            <div class="register-text">
+                
+                <h2>Pay-Day</h2>
+            
+            </div>
+            <!-- label isliye likha taaki agr "input fileds" jo input boxes ke andr hai unhe bahar rkhna ho toh ,aru agr andr hi rkhna ho
+             (as they are now) then you can remove label tags from all-->
+
+
+
+            <label for="name"> </label>
+                <input type="text" id="name" name="name" class="box" required autofocus  <abbr title="Daalo Bhai Jldi"  placeholder="Enter Name"</abbr> 
+
+
+            <label for="address"> </label>
+                <input type="text" id="address" name="address" class="box" placeholder="Enter Address" required>
+
+
+            <label for="age"> </label>
+                <input type="number" id="age" name="age" class="box" placeholder="Enter Age" required>
+
+
+            <label for="contact"> </label>
+                <input type="tel" id="contact" name="contact" class="box" placeholder="Enter Contact" required>
+
+
+            <label for="gender"> </label>
+
+         <select id="gender" name="gender" class="box" required>
+                
+                <option value="" disabled selected>Select Gender</option>  <!-- ye line na likhu toh by default male select hoke aa rha tha instead of placeholder value "enter gender" bcz
+                                                                                placeholder attribute select tag ke andr kaam nhi krta-->
+                <option value="male">male</option>
+                <option value="female">Female</option>
+                <option value="other">Others</option>
+                
+         </select>
+
+            
+            <label for="skills"> </label>
+            <input type="text" id="skills" name="skills" class="box" placeholder="Enter Skills" required>
+
+
+            <button type="submit">Submit</button>
+        </form>
+
+
+            <div class="login-box">
+                    <p>Have an account? <a href="login.html">Login</a></p>    <!-- in this anchor tag put the login page link when you make it -->
+            </div>
+
+    </div>
+
+ </body>
+
+
+</html>

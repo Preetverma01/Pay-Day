@@ -1,0 +1,141 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(tools-864983_1920.jpg);       /* Background image of laborers */
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.171);        /* Slightly transparent background yha se hoga */
+    padding: 0px;
+    border-radius: 26px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 400px;
+    transform: translateY(-50px);
+    animation: slideIn 0.6s ease-in-out forwards;
+    backdrop-filter: blur(8px);
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-53px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    margin-bottom: 6px;
+    color: #333;
+    transition: color 0.3s;
+    height: 624px;
+    width: 400px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");  /* "pay-day" ki font family */
+
+
+h2 {
+    font-family:  "Playfair Display SC", serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.171);
+    margin: 40px;
+    cursor:default;
+}
+
+
+ select.box{
+    margin-bottom: 6px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 312px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+input:hover, select:hover {
+    border-color: #b4440ca9;                                /* Hover effect yha pe hai*/
+    box-shadow: 0 0 5px rgba(225, 128, 44, 0.717);
+}
+
+button {
+    background-color: #000000b9;
+    width: 21.3rem;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    cursor: pointer;
+    border-radius: 21px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 50px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #060802;                   /* Hover effect */
+    transform: scale(1.05);
+}
+
+.box {
+    padding: 14px;
+    margin: 11px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 21px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+
+
+.login-box {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    cursor:default;
+}
+
+.login-box a {
+    color: #ed6e1e;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
